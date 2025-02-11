@@ -37,6 +37,8 @@ Retrouvez les informations suivantes sur le container lancé précédemment :
 - On peut y voir le repositoire hello-world avec des informations comme la date, son ID, son tag et sa taille.
 
 2. Comparez l'output de cette commande avec la vue correspondante de l'interface graphique.  
+- On peut constater les memes informations mais avec une interface plus détaillées.
+
 3. Essayez de trouver la commande qui vous permettra de supprimer cette image.  C'est une bonne idée de ne pas conserver les images non utilisées sur votre système de fichiers : même avec la mutualisation de couches, elles prennent de l'espace sur le disque! 
 
 ## 2. Utiliser un container
