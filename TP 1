@@ -1,5 +1,5 @@
 Noms des auteurs :  G
-Date de réalisation : 11/02/2025
+Date de réalisation : 11/02/2025 (NB : ce travaille a été finit en retard à cause d'une indisponibilité dûe a un voyage internationnale cette semaine là)
 
 
 ## 1. Premier container
@@ -14,17 +14,28 @@ Pouvez-vous expliquer avec vos mots ce qui s'est passé suite à l'exécution de
 
 Retrouvez les informations suivantes sur le container lancé précédemment : 
 1. Quel est son identifiant ? 
-- 7428c0280187
+- Dans la colonne CONTAINER ID, 7428c02801870ec12dec0750bbc1bcfef1d6d37a7df6cc49778a1d4fa84840bf.
+
 2. Quel est son nom ? 
-- charming_stonebraker
+- Dans la colonne NAME, charming_stonebraker.
+
 3. Quel est son état ? 
+- Dans la colonne STATUS, Exited.
+
 4. Quel est le nom de son image?  Avez-vous vu au point 1.1. d''où cette image provenait?  
-5. Quelle commande le container a-t-il exécuté? 
+- Dans la colonne IMAGE, hello-world.
+
+5. Quelle commande le container a-t-il exécuté?
+- Dans la colonne COMMAND, "/hello".
+
 6. Si vous avez installer Docker Desktop, pouvez-vous retrouver ces mêmes informations dans l'interface graphique? 
+- Dans l’onglet Containers on peut voir la liste des conteneurs, leur statut, l’image utilisée et la commande exécutée.
 
 ### 1.3. Les images 
 
 1. Quelles informations voyez-vous?  Quel est le lien avec ce que vous avez observé auparavant? 
+- On peut y voir le repositoire hello-world avec des informations comme la date, son ID, son tag et sa taille.
+
 2. Comparez l'output de cette commande avec la vue correspondante de l'interface graphique.  
 3. Essayez de trouver la commande qui vous permettra de supprimer cette image.  C'est une bonne idée de ne pas conserver les images non utilisées sur votre système de fichiers : même avec la mutualisation de couches, elles prennent de l'espace sur le disque! 
 
