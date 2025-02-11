@@ -7,13 +7,16 @@ Date de réalisation : 11/02/2025
 ### 1.1. Hello World 
 
 Pouvez-vous expliquer avec vos mots ce qui s'est passé suite à l'exécution de cette commande? 
+- Un message de bienvenue est apparu m'expliquant que mon installation fonctinne correctement et les étapes qu'ils a fait pour pouvoir m'afficher ce message.
 
 ### 1.2.  Observer un container
 
 
 Retrouvez les informations suivantes sur le container lancé précédemment : 
 1. Quel est son identifiant ? 
+- 7428c0280187
 2. Quel est son nom ? 
+- charming_stonebraker
 3. Quel est son état ? 
 4. Quel est le nom de son image?  Avez-vous vu au point 1.1. d''où cette image provenait?  
 5. Quelle commande le container a-t-il exécuté? 
