@@ -40,13 +40,18 @@ Retrouvez les informations suivantes sur le container lancé précédemment :
 - On peut constater les memes informations mais avec une interface plus détaillées.
 
 3. Essayez de trouver la commande qui vous permettra de supprimer cette image.  C'est une bonne idée de ne pas conserver les images non utilisées sur votre système de fichiers : même avec la mutualisation de couches, elles prennent de l'espace sur le disque! 
-
+- docker rm "image ID"
 ## 2. Utiliser un container
 
 ### 2.1. Interagir avec un container
 
 1. A quoi servent les options ```i``` et ```t```dans la commande ci-dessus? 
+-L'option 'i' (interactif) sert a garder le flux d'entrée standard (stdin) ouvert, ce qui est indispensable pour interagir avec un conteneur en temps réel.
+-L'option 't' (terminal) alloue un pseudo-terminal (tty) au conteneur.
+
 2. Chaque container Docker est destiné à exécuter une commande unique.  Quelle est-elle dans ce cas-ci? 
+- Oui chaque container docker est destiné à exécuter une commande unique ou processeur principal et dans ce cas-ci, la commande unique qui est executée est bash
+
 3. Dans le container, quels sont les processus présents?  Et leurs PIDs? 
 4. Avec quel utilisateur êtes-vous loggé? 
 5. Votre container a-t'il accès à Internet?  Qui est son résolveur? 
