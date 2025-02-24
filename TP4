@@ -10,9 +10,12 @@ Dans la TODO list ci-dessous, merci d'indiquer ce qui est réalisé et de docume
 Indiquez également soigneusement, pour chaque point, comment vous avez **validé** son implémentation. 
 
 - [ ] Mettre à jour le système d'exploitation
-J'ai utilisé la commande sudo apt update
+J'ai utilisé la commande **sudo apt update** suivi de **sudo apt upgrade**.
 - [ ] Modifier le port d'écoute SSH par défaut.  
-- [ ] Créer un utilisateur avec des droits restreints
+Je suis aller dans le fichier de config ssh **sudo nano /etc/ssh/sshd_config**, j'ai changé le commentaire " #Port 22 " par " Port [chiffre entre 49152 et 65535] " pour sauvegarder mon changement sudo systemctl **restart sshd**
+- [ ] Créer un utilisateur avec des droits restreints.
+
+
 - [ ] Désactiver l'accès SSH de l'utilisateur ```root```
 - [ ] Configurer le pare-feu : Indiquez les règles choisies (et mettez les à jour au fur et à mesure du semestre)
 - [ ] Installer Fail2ban et le configurer pour éviter les attaques brute-force sur SSH.  Indiquez les règles choisies (et mettez les à jour au fur et à mesure du semestre)
